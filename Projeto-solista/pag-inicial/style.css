@@ -1,0 +1,222 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Poppins';
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 0; /* Removido o margin do body */
+}
+
+img {
+  border-radius: 45px;
+}
+
+#menu-h {
+  padding-top: 0; /* Removido o padding-top do #menu-h */
+}
+
+#logo {
+  display: inline-block;
+  max-width: 150px;
+  max-height: 200px;
+}
+
+#logo img {
+  max-width: 100px;
+  max-height: 200px;
+  vertical-align: middle;
+}
+
+#menu-h ul {
+  list-style: none;
+  margin: 0; /* Adicionado o margin: 0 para remover as margens */
+  padding: 0;
+  background-color: #303030;
+}
+
+#menu-h ul li {
+  display: inline-block;
+}
+
+#menu-h ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 39px;
+  transition:  0.2s;
+}
+
+#menu-h ul li a:hover {
+  background-color: #ffdc00b3;
+}
+
+body {
+  background-image: url(notas.jpg);
+}
+
+header, main, footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-solista {
+  display: flex;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.container-solista img {
+  width: 550px;
+  height: 100%;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+p, .texto{
+  padding-bottom: 10px;
+  text-align: justify;
+  width: 1120px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+.p- {
+  width: 600px;
+}
+
+#titulo-artistas {
+  text-align: center;
+}
+
+.botao-saiba-mais {
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+}
+
+.botao-saiba-mais button {
+  text-decoration: none;
+  width: 150px;
+  height: 45px;
+  background-color: #303030;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+#titulo {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 4px solid #ffdc00b3;
+}
+
+#titulo-introdu {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.img-primaria {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.img-primaria img {
+  width: 800px;
+  border-radius: 10px;
+}
+
+.titulo-h3 {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.botao {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 60px;
+}
+
+.botao button {
+  width: 160px;
+  height: 45px;
+  background-color: #303030;
+  border-radius: 10px;
+}
+
+header, main {
+  padding-left: 10px;
+}
+
+.titulo-dia {
+  text-align: center;
+}
+
+/*.container-dia {
+  display: flex;
+  padding-bottom: 40px;
+}*/
+
+.img-mj {
+  margin-right: 8%;
+  
+}
+
+.container-eventos {
+  padding-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  border-top: 4px solid #ffdc00b3;
+  padding-bottom: 30px;
+}
+
+
+img {
+  border-radius: 10px;
+}
+
+.container-solista img{
+  width: 600px;
+}
+
+
+
+/*GUSTAVO*/
+
+
+.img-mj img{
+  max-width: 800px;
+  max-width: 100%;
+}
+
+
+.container-dia{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 40px;
+}
+
+/*
+.img-mj{
+  max-width: 100%;
+  width: 0px;
+}*/

@@ -1,0 +1,210 @@
+ body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-image: url(../pag-inicial/notas.jpg);
+  }
+  
+  #logo {
+    display: inline-block;
+    max-width: 150px;
+    max-height: 200px;
+  }
+  
+  #logo img {
+    max-width: 100px;
+    max-height: 200px;
+    vertical-align: middle;
+  }
+  
+  #menu-h ul {
+    list-style: none;
+    margin: 0; /* Adicionado o margin: 0 para remover as margens */
+    padding: 0;
+    background-color: #303030;
+  }
+  
+  #menu-h ul li {
+    display: inline-block;
+  }
+  
+  #menu-h ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 39px;
+    transition:  0.2s;
+  }
+  
+  #menu-h ul li a:hover {
+    background-color: #ffdc00b3;
+  }
+
+/*Configurando o layout dos eventos */
+
+main {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  border-bottom: 4px solid #ffdc00b3;;
+}
+
+  .eventos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    max-width: 800px;
+    margin: auto;
+  }
+  /*Modificações das 4 abas evento */  
+  .evento { 
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+/*deslocamento vertical da classe evento */
+  .evento:hover {
+    transform: scale(1.07);
+  }
+
+  .evento h3 {
+    margin-top: 0;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .evento p {
+    margin: 20px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+  }
+
+/*Modificações no botão de reserva */
+  .reserva-btn {
+    background-color: #ffdc00b3;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+
+  .evento:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+  }
+
+  .evento img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  /* Estilos para o pop-up */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+    transform: scale(0.9);
+    z-index: 3;
+  }
+
+  .overlay.visible {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .popup {
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  }
+
+  .popup input[type="text"],
+  .popup input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .popup button {
+    background-color: #470d49;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .close-btn:hover {
+    color: #000;
+  }
+  .popup select {
+    margin-bottom: 10px; 
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 4px solid #ffdc00b3;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+  

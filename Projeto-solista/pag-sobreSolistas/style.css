@@ -1,0 +1,107 @@
+* {
+    font-family: 'Poppins';
+  }
+
+
+body {
+    background-image: url(../pag-inicial/notas.jpg) ;
+    color: white;
+    margin: 0;
+    
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 1120px;
+  margin: 0 auto;
+
+}
+
+.i {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(39, 38, 38, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.i:hover {
+  transform: scale(1.07);
+}
+
+img {
+  width: 500px;
+  height: 550px;
+  object-fit: contain;
+}
+
+.titulo {
+    border-bottom: 4px solid #ffdc00b3;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    border-top: 4px solid #ffdc00b3;
+    padding-bottom: 30px;
+  }
+
+#menu-h {
+    padding-top: 0; 
+  }
+  
+  #logo {
+    display: inline-block;
+    max-width: 150px;
+    max-height: 200px;
+  }
+  
+  #logo img {
+    max-width: 100px;
+    max-height: 100px;
+    vertical-align: middle;
+  }
+  
+  #menu-h ul {
+    list-style: none;
+    margin: 0; /* Adicionado o margin: 0 para remover as margens */
+    padding: 0;
+    background-color: #303030;
+  }
+  
+  #menu-h ul li {
+    display: inline-block;
+  }
+  
+  #menu-h ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 39px;
+    transition:  0.2s;
+  }
+  
+  #menu-h ul li a:hover {
+    background-color: #ffdc00b3;
+  }

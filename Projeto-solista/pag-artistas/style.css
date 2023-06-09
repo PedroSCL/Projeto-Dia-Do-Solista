@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins'
+}
+
+body {
+  background-image: url(../pag-inicial/notas.jpg);
+}
+
+header, article, footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+h1{
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 4px solid yellow;
+}
+
+h2 {
+    font-size: 33px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+h3 {
+  font-size: 21px;
+  text-align: center;
+}
+
+.introducao {
+  padding-top: 30px;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.textos {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.off-logo {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:scale-down;
+    border-radius: 45px;
+}
+
+/*.texto-imagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 10px;
+}*/
+
+.texto-imagem{
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 80px;
+    align-content: space-between;
+}
+
+/*.corno-dividido {
+    display: grid;
+}*/
+
+.cornos3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 30px;
+  border-top: 4px solid #ffdc00b3;
+}
+
+article {
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+body {
+  margin: 0; /* Removido o margin do body */
+}
+
+#menu-h {
+  padding-top: 0; /* Removido o padding-top do #menu-h */
+}
+
+#logo {
+  display: inline-block;
+  max-width: 150px;
+  max-height: 90px;
+}
+
+#logo img {
+  max-width: 100px;
+  max-height: 200px;
+  vertical-align: middle;
+}
+
+#menu-h ul {
+  list-style: none;
+  margin: 0; /* Adicionado o margin: 0 para remover as margens */
+  padding: 0;
+  background-color: #303030;
+}
+
+#menu-h ul li {
+  display: inline-block;
+}
+
+#menu-h ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 39px;
+  transition: 0.2s;
+}
+
+#menu-h ul li a:hover {
+  background-color: #ffdc00b3;
+}
+
