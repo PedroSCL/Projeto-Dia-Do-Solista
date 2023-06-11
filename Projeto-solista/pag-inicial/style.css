@@ -20,7 +20,7 @@ body {
 }
 
 img {
-  border-radius: 45px;
+  border-radius: 10px;
 }
 
 #menu-h {
@@ -83,10 +83,14 @@ header {
 }
 
 .container-solista img {
-  width: 550px;
-  height: 100%;
-  margin-right: 10px;
-  padding-left: 20px;
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  padding-right: 20px;
+}
+
+.p- {
+  width: 600px;
 }
 
 p, .texto{
@@ -94,12 +98,11 @@ p, .texto{
   text-align: justify;
   width: 1120px;
   margin: 0 auto;
+  /*
   padding-left: 20px;
   padding-right: 20px;
+  */
 } 
-.p- {
-  width: 600px;
-}
 
 #titulo-artistas {
   text-align: center;
@@ -160,22 +163,8 @@ p, .texto{
   border-radius: 10px;
 }
 
-header, main {
-  padding-left: 10px;
-}
-
 .titulo-dia {
   text-align: center;
-}
-
-/*.container-dia {
-  display: flex;
-  padding-bottom: 40px;
-}*/
-
-.img-mj {
-  margin-right: 8%;
-  
 }
 
 .container-eventos {
@@ -189,30 +178,48 @@ footer {
 }
 
 
-img {
-  border-radius: 10px;
-}
-
-.container-solista img{
-  width: 600px;
-}
-
-
-
 /*GUSTAVO*/
 
 
 .img-mj img{
+  /*
   max-width: 800px;
   max-width: 100%;
+  */
+  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  padding-left: 20px;
 }
 
 
 .container-dia{
-  max-width: 100%;
+  width: 1120px;
+  display: flex;
+  margin: 0 auto;
+  
+  /*
   display: grid;
   grid-template-columns: 1fr 1fr;
+  */
   padding-bottom: 40px;
+}
+
+.container-dia p{
+  width: 720px;
+}
+
+.botao-mj {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+.botao-mj button {
+  width: 160px;
+  height: 45px;
+  background-color: #303030;
+  border-radius: 10px;
 }
 
 /*
@@ -220,3 +227,5 @@ img {
   max-width: 100%;
   width: 0px;
 }*/
+
+@media (max-width: 1120px){}
