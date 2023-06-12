@@ -207,4 +207,19 @@ h1 {
     color: white;
 }
 
+@media (max-width: 925px) {
+  .eventos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .evento{
+    width: 360px;
+    max-width: 100%;
+  }
+  .evento img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
   
