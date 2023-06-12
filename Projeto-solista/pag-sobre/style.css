@@ -117,3 +117,21 @@ footer {
 }
 
 
+@media (max-width: 1140px) {
+  .i1 {
+    width: 550px;
+  }
+
+}
+
+
+@media (max-width: 610px) {
+  .item:hover {
+    transform: scale(1);
+  }
+  .item {
+    width: 92%;
+  }
+}
+
+
