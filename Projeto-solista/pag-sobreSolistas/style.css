@@ -105,3 +105,13 @@ footer {
   #menu-h ul li a:hover {
     background-color: #ffdc00b3;
   }
+
+  
+@media (max-width: 1140px) {
+  .content {
+    width: 92%;
+  }
+  img {
+    max-width: 92%;
+  }
+}
