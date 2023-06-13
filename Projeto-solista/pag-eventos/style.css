@@ -75,6 +75,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    max-width: 92%;
   }
 /*deslocamento vertical da classe evento */
   .evento:hover {
@@ -215,11 +216,9 @@ h1 {
   }
   .evento{
     width: 360px;
-    max-width: 92%;
   }
   .evento img {
     object-fit: cover;
     width: 100%;
   }
 }
-  
