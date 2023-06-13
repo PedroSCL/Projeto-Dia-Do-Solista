@@ -258,12 +258,7 @@ body {
   .trespontos {
     display: block;
     align-self: center;
-    
-  }
-
-
-  body {
-    font-family: "Lato", sans-serif;
+    padding-left: 5px;
   }
   
   .sidenav {
