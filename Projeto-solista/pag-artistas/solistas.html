@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="script.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../pag-inicial/favicon-32x32.png" type="image/x-icon">
@@ -20,6 +21,7 @@
     <header>
         <nav id="menu-h">
             <ul>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="trespontos">&#9776;</span>
                 <div id="logo">
                     <a href="../pag-inicial/index.html">
                         <img class="logo" src="../pag-inicial/logo-color.png" alt="logo">
@@ -32,6 +34,14 @@
             </ul>
         </nav>
     </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../pag-inicial/index.html">Página inicial</a>
+        <a href="../pag-sobreSolistas/index.html">O que é um solista</a>
+        <a href="../pag-sobre/sobre.html">Sobre o dia</a>
+        <a href="solistas.html">Solistas</a>
+        <a href="../pag-eventos/eventos.html">Eventos</a>
+      </div>
     <article>
         <section>
             <h1>Solistas de destaque</h1>
