@@ -135,6 +135,11 @@ footer {
   .item {
     width: 92%;
   }
+  img {
+    max-width: 85%;
+    height: 240px;
+    object-fit: cover;
+}
 }
 
 
