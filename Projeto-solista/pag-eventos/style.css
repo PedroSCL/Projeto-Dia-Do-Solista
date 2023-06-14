@@ -225,7 +225,7 @@ h1 {
   }
   .evento{
     width: 360px;
-    max-width: 85%;
+    max-width: 80%;
   }
   .evento img {
     object-fit: cover;
