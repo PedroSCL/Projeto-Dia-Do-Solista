@@ -9,3 +9,11 @@
     var overlay = document.getElementById('overlay');
     overlay.classList.remove('visible');
   }
+
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
